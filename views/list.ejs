@@ -1,0 +1,33 @@
+<%- include("header") %>
+
+    <div class="box" id="heading">
+        <h1> <%= listTitle %> </h1>
+    </div>
+
+    <div class="box">
+        
+        <% for(let i=0; i<newListItem.length; i++){ %>
+            <div class="item">
+                <input type="checkbox">
+                <p><%= newListItem[i] %></p>
+            </div> 
+        <%  } %>  
+
+        <form action="/" method="post">
+            <input type="text" name="newItem" placeholder="New Item" autocomplete="off">
+            <button class="plus" type="submit" name="list" value=<%= listTitle %>>+</button>
+        </form>
+
+       
+       
+        
+    </div>
+     <% if (listTitle != "Work List") { %>
+        <a href="/work"><button class="ref">Go to Work List</button></a>
+    <% } else { %>   
+        <a href="/"><button class="ref">Go to Main List</button></a>
+    <% } %>
+
+    
+
+<%- include("footer") %>
