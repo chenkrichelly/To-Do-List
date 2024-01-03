@@ -1,7 +1,6 @@
 # To-Do List App
 
-## Overview
-This is a simple To-Do List web application built using HTML, CSS, and JavaScript. It allows users to manage their tasks by adding, updating, and deleting them. The application provides a clean and intuitive interface for an efficient task management experience.
+This is a simple To-Do List web application built using HTML, CSS, and JavaScript, implementing EJS and MongoDB Database. It allows users to manage their tasks by adding, updating, and deleting them. The application provides a clean and intuitive interface for an efficient task management experience.
 
 ## Features
 - Add new tasks
