@@ -10,7 +10,6 @@ This is a simple To-Do List web application built using HTML, CSS, and JavaScrip
 - Responsive design for various screen sizes
 
 ## Getting Started
-Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 - Web browser (Chrome, Firefox, Safari, etc.)
